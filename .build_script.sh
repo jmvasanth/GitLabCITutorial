@@ -10,4 +10,4 @@
  apt-get install zip -y
  apt-get install awscli -y
  zip -r myfirstproject.zip myfirstproject/ -x '*/node_modules/*' -x '*/.git/*'
- sudo aws s3 myfirstproject.zip s3://$S3_BUCKET_NAME/
+ sudo aws s3 myfirstproject.zip s3://jmvasanthbucket/
